@@ -24,10 +24,10 @@ $(function () {
                 var weatherS = "mist.png";
             }
             console.log(data);
-            var row1 = "<h4 class = 'fontH'><img id = 'pic' src='location.png' alt=''><b>" + city + 
+            var row1 = "<h3 class = 'fontH'><img id = 'pic' src='location.png' alt=''><b>" + city + 
             "</td><td><h4><img id = 'pic' src='date.png' alt=''><b>" + date + "</h4></td></tr></table>" +
                 "<table align = 'center'><tr><td><img class = 'font' src='" + weatherS +
-                "' alt=''></td></tr></table><table align = 'center'><tr><td width = '100%'><p id = 'text'><b>" + data.weather[0].description +
+                "' alt=''></td></tr></table><table align = 'center'><tr><td width = '80%'><p id = 'text'><b>" + data.weather[0].description +
                 "<b></p></td></tr></table>" + "<table>" + "<tr><td><img src='celsius.png' alt=''></td><td>" + ((data.main.temp) / 10).toFixed(2) +
                 " °C</td></tr>" + "<tr><td><img src='pressure.png' alt=''></td><td>" + data.main.pressure +
                 " hPa</td></tr>" + "<tr><td><img src='humidity.png' alt=''></td><td>" + data.main.humidity + "%";

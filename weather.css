@@ -14,21 +14,21 @@ img {
     margin-top: 5px;
     margin-right: 25px;
 }
-.card{
+card{
    
-    background-color: #FFE3F0;
+    background-color: #8474EF;
     color: #F0F5F9;
 }
 .input-group{
     border-radius: 10px;
 }
 #forecastbox{
-    background-color: #F8E6EE;
-    text-align: left;
+    background-color: #ccf2ff;
+    text-align: center;
 }
 #hd {
-    width: 110px;
-    height: 110px;
+    width: 550px;
+    height:200px;
 }
 #pic {
     margin-right: 15px;
